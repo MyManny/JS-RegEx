@@ -32,7 +32,7 @@ Expected Output:
 */ 
  
 let phoneReg = "555-123-4567, 555-567-8910"
-let regex = /phone-number/g
+let regex = /phoneReg/g
 console.log(str.test(regex))
 
 /* 
