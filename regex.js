@@ -9,7 +9,7 @@ As you go through this activity, use this string to test your regex on using the
 
 let sampleApp = `
 name(s): Larissa Souza
-phone number(s): 555-123-4567 555-567-8910
+phone-number(s): 555-123-4567 555-567-8910
 email: lsouza@gmail.com 
 animals: Dog, cat
 bio: Cat ipsum dolor sit amet, exercitationem incididunt. Laborum consequuntur, error velitesse incidunt. Nostrud fugit eu, anim. Sint qui but exercitationem iure yet nesciunt. Occaecat do so ut yet nihil. Fugiat fugiat but voluptatem or velit, for aut. 
@@ -31,7 +31,9 @@ Expected Output:
 
 */ 
  
-let phoneReg = /write your regex here/
+let phoneReg = "555-123-4567", "555-567-8910"
+let regex = /phone-number/g
+console.log(str.test(regex))
 
 /* 
 
